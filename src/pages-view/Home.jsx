@@ -20,6 +20,15 @@ const Home = () => {
               <div className="center-horizontal form-bordered">
                 <Button variant="dark">
                   <h1>
+                    Create User
+                  </h1>
+                </Button>                   
+              </div>
+            </Col>            
+            <Col sm>
+              <div className="center-horizontal form-bordered">
+                <Button variant="dark">
+                  <h1>
                   Human Resources
                   </h1>
                 </Button>                
