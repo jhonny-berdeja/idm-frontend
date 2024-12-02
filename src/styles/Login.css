@@ -1,0 +1,30 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: #f8f9fa; /* Fondo claro */
+  }
+  
+  .login-form-wrapper {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .center-horizontal {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-bordered {
+    border: 2px solid black; /* Borde negro de 2px */
+    padding: 20px; /* Espaciado interno opcional */
+    border-radius: 5px; /* Opcional: esquinas redondeadas */
+  }
+
+  
+  

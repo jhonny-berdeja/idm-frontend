@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import LoginPage from './components/LoginPage';
+import LoginPage from './components/Login';
 import HomePage from './components/HomePage';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './components/AuthContext';
 import Unauthorized from './components/Unauthorized';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
