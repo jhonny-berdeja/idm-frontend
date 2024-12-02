@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useAuth } from '../components/AuthContext';
+import { useAuth } from '../routes/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 const mockAuthService = async (email, password) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoginLogic } from '../logic/useLoginLogic';
+import { useLoginLogic } from '../pages-logic/LoginLogic';
 import { Alert, Button, Col, Form, Row } from 'react-bootstrap';
 import '../styles/Login.css'
 
