@@ -1,10 +1,9 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import RoutesIdm from './routes/RoutesIdm';
+import Login from './pages/Login';
 
 const App = () => {
   return (
-    <RoutesIdm/>
+    <Login/>
   );
 };
 
