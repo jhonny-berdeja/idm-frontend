@@ -1,9 +1,9 @@
 import React from 'react';
-import Login from './pages/Login';
+import RoutesIdm from './routes/RoutesIdm';
 
 const App = () => {
   return (
-    <Login/>
+    <RoutesIdm/>
   );
 };
 
