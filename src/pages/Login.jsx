@@ -31,7 +31,7 @@ const authenticateUser = async (email, password) => {
 const createUser = async (token) => {
     const body = {
         userIdm: {
-            email: "test14@jhonnyberdeja.com",
+            email: "test15@jhonnyberdeja.com",
             password: "to_be_encoded",
             roles: ["ROLE_ADMIN"]
         }
